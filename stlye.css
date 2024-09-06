@@ -1,0 +1,18 @@
+body{
+    font-family: Diphylleia;
+}
+
+.diphylleia-regular {
+    font-family: "Diphylleia", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+#title {
+    display: flex;
+    align-items: center; /* 수평 중앙 정렬 */
+    justify-content: center; /* 수직 중앙 정렬 */
+    flex-direction: column;
+    height: 650px; /* 부모 요소의 높이를 전체 화면 높이로 설정 */
+}
